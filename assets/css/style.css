@@ -292,33 +292,6 @@
 }
 
 /* section about */
-.about-two__image {
-  overflow: hidden;
-  width: 100%;
-  border-radius: 0;
-  position: relative;
-  z-index: 10;
-  height: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 320px;
-  max-height: 320px;
-  aspect-ratio: 1;
-  transform: rotate(45deg);
-  text-align: center;
-}
-
-.about-two__image .img {
-  width: 210%;
-  margin: auto;
-  /* height: 100%; */
-  object-fit: cover;
-  object-position: left;
-  border-radius: 0;
-  transform: rotate(-45deg) translateX(65px) translatey(80px);
-}
-
-
 .frame_logo {
   background-image: url(../images/home/about1.jpg);
   background-size: cover;
