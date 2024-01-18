@@ -1,0 +1,413 @@
+:root {
+    --mainColor: #034931;
+    --Color: #ff2020;
+    --text: #566D89;
+    --grayColor: #F0EDE9;
+    --bgColor: #f6faff;
+    --textColor: #000;
+}
+
+@font-face {
+    font-family: "NotoSansArabic";
+    src: url("../webfonts/NotoSansArabic-Regular.ttf") format("opentype");
+}
+@font-face {
+    font-family: "Tajawal";
+    src: url("../webfonts/Tajawal-Regular.ttf") format("opentype");
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.pt-5 {
+    padding-top: 5px !important;
+}
+
+.pt-10 {
+    padding-top: 10px !important;
+}
+
+.pt-15 {
+    padding-top: 15px !important;
+}
+
+.pt-20 {
+    padding-top: 20px !important;
+}
+
+.pt-30 {
+    padding-top: 30px !important;
+}
+
+.pt-40 {
+    padding-top: 40px !important;
+}
+
+.pt-50 {
+    padding-top: 50px !important;
+}
+
+.pt-60 {
+    padding-top: 60px !important;
+}
+
+.pt-70 {
+    padding-top: 70px !important;
+}
+
+.pt-80 {
+    padding-top: 80px !important;
+}
+
+.pt-90 {
+    padding-top: 90px !important;
+}
+
+.pt-100 {
+    padding-top: 100px !important;
+}
+
+.pb-5 {
+    padding-bottom: 5px !important;
+}
+
+.pb-10 {
+    padding-bottom: 10px !important;
+}
+
+.pb-15 {
+    padding-bottom: 15px !important;
+}
+
+.pb-20 {
+    padding-bottom: 20px !important;
+}
+
+.pb-30 {
+    padding-bottom: 30px !important;
+}
+
+.pb-40 {
+    padding-bottom: 40px !important;
+}
+
+.pb-50 {
+    padding-bottom: 50px !important;
+}
+
+.pb-60 {
+    padding-bottom: 60px !important;
+}
+
+.pb-70 {
+    padding-bottom: 70px !important;
+}
+
+.pb-80 {
+    padding-bottom: 80px !important;
+}
+
+.pb-90 {
+    padding-bottom: 90px !important;
+}
+
+.pb-100 {
+    padding-bottom: 100px !important;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.mt-5 {
+    margin-top: 5px !important;
+}
+
+.mt-10 {
+    margin-top: 10px !important;
+}
+
+.mt-15 {
+    margin-top: 15px !important;
+}
+
+.mt-20 {
+    margin-top: 20px !important;
+}
+
+.mt-25 {
+    margin-top: 25px !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.mt-40 {
+    margin-top: 40px !important;
+}
+
+.mt-50 {
+    margin-top: 50px !important;
+}
+
+.mt-60 {
+    margin-top: 60px !important;
+}
+
+.mt-70 {
+    margin-top: 70px !important;
+}
+
+.mt-80 {
+    margin-top: 80px !important;
+}
+
+.mt-90 {
+    margin-top: 90px !important;
+}
+
+.mt-100 {
+    margin-top: 100px !important;
+}
+
+.mb-5 {
+    margin-bottom: 5px !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px !important;
+}
+
+.mb-15 {
+    margin-bottom: 15px !important;
+}
+
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+
+.mb-25 {
+    margin-bottom: 25px !important;
+}
+
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+
+.mb-40 {
+    margin-bottom: 40px !important;
+}
+
+.mb-50 {
+    margin-bottom: 50px !important;
+}
+
+.mb-60 {
+    margin-bottom: 60px !important;
+}
+
+.mb-70 {
+    margin-bottom: 70px !important;
+}
+
+.mb-80 {
+    margin-bottom: 80px !important;
+}
+
+.mb-90 {
+    margin-bottom: 90px !important;
+}
+
+.mb-100 {
+    margin-bottom: 100px !important;
+}
+
+body {
+    /* font-family: "NotoSansArabic"; */
+    font-family: "Tajawal";
+    color: var(--textColor);
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+input,
+select,
+textarea,
+button {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.top-background {
+    height: 400px;
+    padding-top: 200px;
+    position: relative;
+    z-index: 0;
+    /*    background-image: url(../images/about/top.jpg);*/
+    background-position: center;
+    background-size: cover;
+}
+
+.top-background:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.top-background h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px
+}
+
+.top-background ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.top-background ul li {
+    display: inline-block;
+    padding: 2px 6px;
+}
+
+.top-background ul li,
+.top-background ul li a {
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .top-background .container {
+        max-width: 100%;
+    }
+
+    .top-background h3 {
+        font-size: 40px
+    }
+}
+
+
+/*button */
+
+.btn-color {
+    color: #fff !important;
+    font-size: 20px;
+    padding: 5px 40px 5px 40px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    background-color: var(--Color);
+    box-shadow: none !important;
+    outline: none !important;
+    background-image: linear-gradient(to left, transparent, transparent 50%, var(--mainColor) 50%, var(--mainColor));
+    background-position: 100% 0;
+    background-size: 201% 100%;
+    /*border */
+    border-image-source: linear-gradient(to left, #034931, #ff2020) !important;
+    border-image-slice: 1 !important;
+    border-width: 2px !important;
+    border-radius: 0 !important;
+    border: 2px solid;
+}
+
+.btn-color:hover {
+    background-position: 0 0;
+}
+
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+.form-control {
+    background-color: #fff;
+    box-shadow: none !important;
+    outline: none !important;
+    border: 0;
+    color: var(--bgColor);
+    border-radius: 4px;
+    text-align: right;
+    font-size: 15px;
+}
+
+.form-group .form-control::placeholder {
+    color: #FFF1C0;
+    opacity: .5
+}
+
+
+/*  end button */
+
+.title {
+    color: var(--mainColor) !important;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+    max-width: 800px;
+    margin: auto;
+}
+.text{
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    color: var(--text);
+    text-align: justify;
+}
+.sub_title{
+    font-size: 15px;
+    color: var(--Color);
+    padding: 6px 0px;
+    margin-bottom: 0px;
+    display: inline-block;
+    font-weight: bold;
+}
+.sub_title img{
+    margin-left: 10px;
+}
+
+@media(max-width:992px){
+    .container{
+        max-width: 100%;
+    }
+    .title {
+        font-size: 35px;
+    }
+    .text{
+        font-size: 20px;
+    }
+}
+@media(max-width:768px){
+    .Description{
+        text-align: center;
+    }
+    .title {
+        font-size: 30px;
+        text-align: center;
+    }
+    .text{
+        font-size: 18px;
+        text-align: center;
+    }
+
+}
