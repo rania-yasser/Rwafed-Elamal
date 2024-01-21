@@ -1314,3 +1314,88 @@ footer .box ul li a:hover {
   color: var(--text);
   margin-bottom: 0;
 }
+
+
+/*  faq */
+.faq-content {
+  position: relative;
+}
+
+.faq-content .title-faq-tab {
+  text-align: center;
+}
+
+.faq-content .card {
+  border: 0;
+  margin-bottom: 8px;
+}
+
+.faq-content .card-header {
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background: var(--bgColor);
+}
+
+.faq-content .card-header .btn-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: var(--bgColor);
+  text-decoration: none;
+  padding: 14px 16px;
+  transition: 0.7s;
+  border-bottom: 2px solid #eee;
+}
+
+.faq-content .card-header .btn-link p {
+  color: var(--Color);
+  margin: 0;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.faq-content .card-header .btn-link i {
+  color: var(--Color);
+  transform: rotate(180deg);
+  transition: 0.7s;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  padding-top: 7px;
+  font-size: 17px;
+}
+
+.faq-content .card-header .btn-link.collapsed {
+  background: var(--bgColor);
+}
+
+.faq-content .card-header .btn-link.collapsed p {
+  color: var(--mainColor);
+}
+
+.faq-content .card-header .btn-link.collapsed i {
+  color: #ffffff;
+  transform: rotate(0deg);
+  color: var(--mainColor);
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  padding-top: 4px;
+  font-size: 17px;
+}
+
+.faq-content .card-header .btn-link:hover {
+  text-decoration: none !important;
+}
+
+.faq-content .card-header .btn-link:focus {
+  text-decoration: none !important;
+}
+
+.faq-content .card-body p {
+  color: var(--text);
+  margin: 0;
+  font-size: 16px;
+}
