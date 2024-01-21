@@ -11,6 +11,7 @@
     font-family: "NotoSansArabic";
     src: url("../webfonts/NotoSansArabic-Regular.ttf") format("opentype");
 }
+
 @font-face {
     font-family: "Tajawal";
     src: url("../webfonts/Tajawal-Regular.ttf") format("opentype");
@@ -224,6 +225,14 @@
     margin-bottom: 100px !important;
 }
 
+.mr-0 {
+    margin-right: 0 !important;
+}
+
+.ml-0 {
+    margin-left: 0 !important;
+}
+
 body {
     /* font-family: "NotoSansArabic"; */
     font-family: "Tajawal";
@@ -367,14 +376,16 @@ button {
     max-width: 800px;
     margin: auto;
 }
-.text{
+
+.text {
     font-size: 18px;
     margin-bottom: 5px;
     margin-top: 30px;
     color: var(--text);
     text-align: justify;
 }
-.sub_title{
+
+.sub_title {
     font-size: 15px;
     color: var(--Color);
     padding: 6px 0px;
@@ -382,30 +393,36 @@ button {
     display: inline-block;
     font-weight: bold;
 }
-.sub_title img{
+
+.sub_title img {
     margin-left: 10px;
 }
 
-@media(max-width:992px){
-    .container{
+@media(max-width:992px) {
+    .container {
         max-width: 100%;
     }
+
     .title {
         font-size: 35px;
     }
-    .text{
+
+    .text {
         font-size: 20px;
     }
 }
-@media(max-width:768px){
-    .Description{
+
+@media(max-width:768px) {
+    .Description {
         text-align: center;
     }
+
     .title {
         font-size: 30px;
         text-align: center;
     }
-    .text{
+
+    .text {
         font-size: 18px;
         text-align: center;
     }

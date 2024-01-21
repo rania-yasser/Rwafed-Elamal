@@ -469,7 +469,8 @@
   background-image: linear-gradient(to top, #000000a1, #0000007a);
   padding: 20px 30px 15px;
 }
-.Services .all:hover .services_text p{
+
+.Services .all:hover .services_text p {
   overflow: unset;
   display: block;
 }
@@ -503,7 +504,7 @@
   box-shadow: 0 7px 10px #9191916e
 }
 
-.delivery_service.right .text_side{
+.delivery_service.right .text_side {
   margin-right: 0px;
   margin-left: -85px;
   z-index: 5;
@@ -535,11 +536,13 @@
     margin-right: 0;
     margin-top: 30px;
   }
-  .delivery_service.right .text_side{
+
+  .delivery_service.right .text_side {
     margin-left: 0;
     margin-top: 30px;
   }
-  .delivery_service .right_img{
+
+  .delivery_service .right_img {
     order: 1;
   }
 }
@@ -1060,7 +1063,8 @@ footer .box ul li a:hover {
   text-align: justify;
   margin-bottom: 23px;
 }
-.prices .prices-box .icon{
+
+.prices .prices-box .icon {
   width: 100px;
   height: 100px;
   margin: auto;
@@ -1074,24 +1078,30 @@ footer .box ul li a:hover {
   align-items: center;
   justify-content: center;
 }
-.prices .prices-box .icon img{
-  height:  98%;
+
+.prices .prices-box .icon img {
+  height: 98%;
   padding: 23px;
 }
-.prices .prices-box .icon .wh{
+
+.prices .prices-box .icon .wh {
   display: none;
 }
-.prices .prices-box:hover .icon{
+
+.prices .prices-box:hover .icon {
   background-color: var(--mainColor);
   transform: rotateY(360deg);
 }
-.prices .prices-box:hover .wh{
+
+.prices .prices-box:hover .wh {
   display: block;
 }
-.prices .prices-box:hover .dark{
+
+.prices .prices-box:hover .dark {
   display: none;
 }
-.prices .all_prices{
+
+.prices .all_prices {
   position: absolute;
   left: 0;
   right: 0;
@@ -1099,16 +1109,22 @@ footer .box ul li a:hover {
 }
 
 /*  news   */
-.news  .all_news {
+.news .all {
+  background-color: var(--bgColor);
+  padding-bottom: 1px;
+  height: 100%;
+}
+
+.news .all_news {
   width: 100%;
   height: 320px;
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
 }
 
-.news  .all_news img {
+.news .all_news img {
   width: 100%;
   transition: all .5s;
   object-fit: cover;
@@ -1116,7 +1132,7 @@ footer .box ul li a:hover {
   height: 100%;
 }
 
-.news  .all_news .caption {
+.news .all_news .caption {
   position: absolute;
   top: 0;
   left: 0;
@@ -1133,7 +1149,7 @@ footer .box ul li a:hover {
 }
 
 
-.news  .all_news .caption h1 {
+.news .all_news .caption h1 {
   text-transform: uppercase;
   margin: 0;
   font-size: 18px;
@@ -1141,7 +1157,7 @@ footer .box ul li a:hover {
   padding: 20px;
 }
 
-.news  .all_news h2 {
+.news .all_news h2 {
   position: absolute;
   bottom: 0;
   padding: 12px 16px;
@@ -1154,21 +1170,22 @@ footer .box ul li a:hover {
 }
 
 
-.news  .all_news .caption p {
+.news .all_news .caption p {
   font-size: 18px;
   text-transform: capitalize;
 }
 
-.news  .all_news:hover .caption {
+.news .all_news:hover .caption {
   opacity: 1;
   background-color: rgba(0, 0, 0, .5);
 }
 
-.news  .all_news:hover img {
+.news .all_news:hover img {
   transform: scale(1.3) rotate(10deg);
 }
-.news .news_title{
-  font-size: 18px;
+
+.news .news_title {
+  font-size: 16px;
   padding: 10px 10px 0;
   text-align: right !important;
   color: var(--mainColor);
@@ -1178,9 +1195,10 @@ footer .box ul li a:hover {
   line-clamp: 2;
   -webkit-box-orient: vertical;
   margin-bottom: 25px;
+  font-weight: bold;
 }
 
-.news_details h1{
+.news_details h1 {
   font-size: 25px;
   font-weight: bold;
   color: var(--mainColor);
@@ -1188,21 +1206,61 @@ footer .box ul li a:hover {
   margin-bottom: 0;
   margin-top: 20px;
 }
-.news_details p{
+
+.news_details p {
   padding: 10px;
   font-size: 17px;
   text-align: justify;
 }
-.news_details h3{
+
+.news_details h3 {
   padding: 5px 10px;
   color: var(--Color);
   font-size: 15px;
   font-weight: 600;
 }
-.news_details ul{
+
+.news_details ul {
   list-style: circle;
 }
-.news_details ul li{
+
+.news_details ul li {
   font-size: 17px;
   margin-bottom: 8px;
+}
+
+/* Privacy_policy */
+
+.Privacy_policy h1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--mainColor);
+  margin-top: 20px;
+}
+
+.Privacy_policy p {
+  font-size: 17px;
+}
+
+.Privacy_policy h3 {
+  padding: 5px 10px;
+  color: var(--Color);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Privacy_policy ul {
+  list-style: circle;
+}
+
+.Privacy_policy ul li {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+/*  blogs_page_details  */
+.blogs_page_details {
+  background-color: var(--bgColor);
+  padding: 30px;
+  padding-bottom: 30px;
 }
